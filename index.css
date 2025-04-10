@@ -1,0 +1,64 @@
+img{
+ height: 8rem;
+ width: 8rem;
+ border:0.3em solid #006685;
+ border-radius: 20px;
+}
+
+#page{
+    border: 0.5em solid #006685;
+    margin:4em 8em 4em 8em;
+    padding:4em;
+    border-radius: 2em;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    grid-template-areas: "sidebare header" "main-section main-section" "footer footer";
+    grid-template-rows:auto;
+    grid-template-columns: 10em auto auto;
+}
+.sidebare{
+    grid-area: sidebare;
+    }
+
+ header{
+    grid-area: header;
+} 
+
+ .main-section{
+    grid-area: main-section;
+} 
+footer{
+    grid-area: footer;
+    background-color: #dddddd;
+}
+a{
+    color: #06627e;
+    cursor: pointer;
+
+}
+.description{
+    display: inline-block;
+    margin-top:0em;
+    padding-right:0em;
+    padding-left: 1em;
+    padding-bottom: 0em;
+}
+ul{
+    list-style: circle;
+}
+h3{
+    margin-bottom: 0em;
+}
+h2{
+    margin-bottom: 0em;
+
+}
+h1{
+    margin-bottom: 0em;
+
+}
+li{
+    padding: 0.5em;
+}
+  
