@@ -86,7 +86,7 @@ li{
   }
   @media (max-width:480px) {
       #page {
-    border: 0 solid #006685;
+    border: none;
     margin: 0;
     /*padding:4em;*/
     border-radius: 2em;
