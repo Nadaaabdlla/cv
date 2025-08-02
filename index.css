@@ -1,7 +1,9 @@
 * {
     box-sizing: border-box;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 #page {
     border: 0.5em solid #006685;
     margin: 4em 8em 4em 8em;
@@ -59,7 +61,6 @@ nav ul {
     display: flex;
     justify-content: center;
 }
-
 #button_up {
     position: relative;
     top: 230px;
