@@ -93,7 +93,7 @@ li{
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
-    grid-template-areas: "header header" "sidebare sidebare" "main-section main-section" "footer footer";
+    grid-template-areas: "sidebare sidebare" "header header" "main-section main-section" "footer footer";
     grid-template-rows: auto;
     grid-template-columns: 10em auto auto;
 }
