@@ -95,7 +95,7 @@ li{
     justify-content: center;
     grid-template-areas: "sidebare sidebare" "header header" "main-section main-section" "footer footer";
     grid-template-rows: auto;
-    grid-template-columns: 10em auto auto;
+    grid-template-columns: auto auto auto auto;
 }
 .sidebare{
     grid-area: sidebare;
