@@ -98,10 +98,11 @@ li{
     grid-template-columns: 10em auto auto;
 }
 h1{
-    font-size: 1rem;
+    font-size: 0.5rem;
 }
 h2 {
-    font-size: 0.5rem;
+    grid-area: main-section;
+    font-size: 0.1rem;
 }
         #button_up {
       position: relative;
